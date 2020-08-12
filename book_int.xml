@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books1.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+<title>Advaced accountancy </title>
+<author>arun landham</author>
+<isbn>81-265</isbn>
+<publisher>O'relilly</publisher>
+<edition>second</edition>
+<price>200</price>
+</book>
+<book>
+<title>A guide to projects</title>
+<author>Ravichandhran</author>
+<isbn>81-695</isbn>
+<publisher>tata</publisher>
+<edition>second</edition>
+<price>400</price>
+</book>
+<book>
+<title>Banking theory law and practice</title>
+<author>guruswamy</author>
+<isbn>81-265</isbn>
+<publisher>wiley</publisher>
+<edition>second</edition>
+<price>300</price>
+</book>
+</books>
